@@ -32,3 +32,4 @@ jobs:
           sbom-file: bom.json
           product-name: 'EMF Transaction'
           product-version: ${{ steps.build.outputs.PROJECT_VERSION }}
+          staging: true
